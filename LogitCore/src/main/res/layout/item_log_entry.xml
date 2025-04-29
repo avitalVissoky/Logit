@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginHorizontal="8dp"
+    app:cardCornerRadius="12dp"
+    android:elevation="4dp"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/logTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/logLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEBUG"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/logTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MainActivity"
+            android:textStyle="italic"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/logMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message goes here"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

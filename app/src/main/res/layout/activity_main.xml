@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/debugButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add debug log"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/errorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add error log"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/warningButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add warning log"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add info log"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/viewLogsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="watch logs" />
+</LinearLayout>
