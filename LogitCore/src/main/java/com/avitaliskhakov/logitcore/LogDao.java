@@ -1,4 +1,4 @@
-package com.example.logitcore;
+package com.avitaliskhakov.logitcore;
 
 import androidx.room.Dao;
 import androidx.room.Insert;

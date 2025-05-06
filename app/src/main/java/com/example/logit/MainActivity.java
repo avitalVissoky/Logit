@@ -7,8 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.logitcore.LogViewerActivity;
-import com.example.logitcore.LogMe;
+import com.avitaliskhakov.logitcore.LogViewerActivity;
+import com.avitaliskhakov.logitcore.LogMe;
 
 public class MainActivity extends AppCompatActivity {
 

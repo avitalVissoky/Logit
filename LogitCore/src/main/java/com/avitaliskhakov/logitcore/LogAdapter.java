@@ -1,4 +1,4 @@
-package com.example.logitcore;
+package com.avitaliskhakov.logitcore;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.logitcore.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

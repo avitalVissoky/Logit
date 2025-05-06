@@ -1,4 +1,4 @@
-package com.example.logitcore;
+package com.avitaliskhakov.logitcore;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
