@@ -11,8 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.logitcore.R;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
